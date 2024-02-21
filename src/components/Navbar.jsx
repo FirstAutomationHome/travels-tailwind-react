@@ -37,7 +37,7 @@ function Navbar() {
                         </button>
                     </div>
                     <div className='w-full h-full lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center'>
-                        <img className='lg:hidden' src='../../public/img/sanFrancisco.jpg' alt='San Francisco'/>
+                        <img className='lg:hidden' src='./img/sanFrancisco.jpg' alt='San Francisco'/>
                     </div>
                     
                 </div>

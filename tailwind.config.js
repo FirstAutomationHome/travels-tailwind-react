@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'sanFrancisco': "url('./public/img/sanFrancisco.jpg')",
+        'sanFrancisco': "url('./img/sanFrancisco.jpg')",
         'bali': "url('./public/img/bali.jpg')",
         'chicago': "url('./public/img/chicago.jpg')",
         'europe': "url('./public/img/europe.jpg')",
@@ -16,7 +16,7 @@ export default {
         'miami': "url('./public/img/miami.jpg')",
         'new_york': "url('./public/img/new_york.jpg')",
         'norway': "url('./public/img/norway.jpg')",
-        'sanFranciscoDesktop': "url('./public/img/sanFranciscoDesktop.jpg')",
+        'sanFranciscoDesktop': "url('./img/sanFranciscoDesktop.jpg')",
         'seattle': "url('./public/img/seattle.jpg')",
         'switzerland': "url('./public/img/switzerland.jpg')",
         'sydney': "url('./public/img/sydney.jpg')",
