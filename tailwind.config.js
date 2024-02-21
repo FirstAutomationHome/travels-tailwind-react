@@ -16,7 +16,7 @@ export default {
         'miami': "url('./public/img/miami.jpg')",
         'new_york': "url('./public/img/new_york.jpg')",
         'norway': "url('./public/img/norway.jpg')",
-        'sanFranciscoDesktop': "url('./img/sanFranciscoDesktop.jpg')",
+        'sanFranciscoDesktop': "url('../img/sanFranciscoDesktop.jpg')",
         'seattle': "url('./public/img/seattle.jpg')",
         'switzerland': "url('./public/img/switzerland.jpg')",
         'sydney': "url('./public/img/sydney.jpg')",
