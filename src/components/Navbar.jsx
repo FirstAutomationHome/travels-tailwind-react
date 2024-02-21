@@ -154,8 +154,8 @@ function Navbar() {
                 <p className='text-sm text-gray-500'>Platzi Travel, inc</p>
                 <p className='text-sm text-gray-500'>Follow us</p>
                 <div className='flex w-full h-full'>
-                    <img className='opacity-80' src="../../public/svg/icons8-instagram.svg" alt="icon-instagram" />
-                    <img className='opacity-80' src="../../public/svg/icons8-facebook-nuevo.svg" alt="icon-facebook" />
+                    <img className='opacity-80' src="./svg/icons8-instagram.svg" alt="icon-instagram" />
+                    <img className='opacity-80' src="./svg/icons8-facebook-nuevo.svg" alt="icon-facebook" />
                 </div>
             </footer>
         </section>
