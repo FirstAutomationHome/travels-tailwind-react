@@ -25,9 +25,9 @@ function Navbar() {
             </div>
         </nav>
         <section className='w-full h-screen'>
-            <div className="w-full h-3/4" id='home'>
-                <div className="w-full h-full">
-                    <div className='flex flex-col absolute w-full h-full space-y-96 py-3 items-center lg:space-y-2 lg:items-start lg:pt-32 lg:justify-start '>
+            <div className="w-full h-3/4 md:h-auto" id='home'>
+                <div id="clave" className="w-full h-full">
+                    <div className='flex flex-col absolute w-full h-full space-y-96 py-3 items-center md:space-y-96 md:py-3 md:items-center lg:space-y-2 lg:items-start lg:pt-32 lg:justify-start '>
                         <input className='outline-none p-3 rounded-full shadow-lg transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-7/12 lg:hidden' type='search' placeholder=" San Francisco" />
                         <div className='hidden h-auto lg:w-2/4 lg:flex lg:pb-4'>
                             <p className='text-4xl ml-16 font-bold text-black'>Find more locations like this</p>
@@ -37,7 +37,7 @@ function Navbar() {
                         </button>
                     </div>
                     <div className='w-full h-full lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center'>
-                        <img className='lg:hidden' src='./img/sanFrancisco.jpg' alt='San Francisco'/>
+                        <img className='md:h-[40rem] md:w-full lg:hidden' src='./img/sanFrancisco.jpg' alt='San Francisco'/>
                     </div>
                     
                 </div>
@@ -96,7 +96,7 @@ function Navbar() {
                     </div>                
                 </div>                
             </div>  
-            <div className='px-5 h-[120rem] w-full lg:h-full lg:mb-[40rem]' id='important-rents'>
+            <div className='px-5 h-[120rem] w-full md:px-5 md:h-[120rem] lg:h-full lg:mb-[40rem]' id='important-rents'>
                 <p className='text-3xl text-primary font-semibold pb-4 mt-6'>Trending Stays</p>
                 <div className='grid grid-cols-1 gap-4'>
                     <div className='w-full h-[28rem] bg-chicago bg-cover rounded-xl lg:bg-center lg:h-96'>
