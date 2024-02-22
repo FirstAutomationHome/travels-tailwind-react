@@ -1,7 +1,7 @@
 function ImportantsRents() {
     return(
         <div className='px-5 h-[120rem] w-full md:px-5 md:h-[120rem] lg:h-full lg:mb-[40rem]' id='important-rents'>
-                <p className='text-3xl text-primary font-semibold pb-4 mt-6'>Trending Stays</p>
+                <p className='text-3xl text-primary font-semibold pb-4 mt-6 dark:text-white'>Trending Stays</p>
                 <div className='grid grid-cols-1 gap-4'>
                     <div className='w-full h-[28rem] bg-chicago bg-cover rounded-xl lg:bg-center lg:h-96'>
                         <p className='cardTitle lg:text-black'>Chicago</p>
