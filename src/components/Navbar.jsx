@@ -25,9 +25,9 @@ function Navbar() {
             </div>
         </nav>
         <section className='w-full h-screen'>
-            <div className="w-full h-3/4 md:h-auto" id='home'>
+            <div className="w-full h-3/4 md:h-auto lg:h-3/4" id='home'>
                 <div id="clave" className="w-full h-full">
-                    <div className='flex flex-col absolute w-full h-full space-y-96 py-3 items-center md:space-y-96 md:py-3 md:items-center lg:space-y-2 lg:items-start lg:pt-32 lg:justify-start '>
+                    <div className='flex flex-col absolute w-full h-full space-y-96 py-3 items-center md:space-y-96 md:py-3 md:items-center lg:space-y-2 lg:items-start lg:pt-28 lg:justify-start '>
                         <input className='outline-none p-3 rounded-full shadow-lg transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-7/12 lg:hidden' type='search' placeholder=" San Francisco" />
                         <div className='hidden h-auto lg:w-2/4 lg:flex lg:pb-4'>
                             <p className='text-4xl ml-16 font-bold text-black'>Find more locations like this</p>
