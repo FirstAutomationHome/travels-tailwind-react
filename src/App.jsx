@@ -1,3 +1,4 @@
+import { ControlDarkModeProvider } from './context/context'
 import Navbar from './components/Navbar'
 import Section from './components/Section'
 import Tabbar from './components/Tabbar'
@@ -7,11 +8,11 @@ function App() {
   
 
   return (
-    <>
-    <Navbar />
-    <Section />
-    <Tabbar />  
-    </>
+    <ControlDarkModeProvider>
+      <Navbar />
+      <Section />
+      <Tabbar />  
+    </ControlDarkModeProvider>
   )
 }
 
