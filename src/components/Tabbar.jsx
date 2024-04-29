@@ -4,7 +4,7 @@ import { ControlDarkModeContext } from '../context/context'
 function Tabbar () {
 
     const context = useContext(ControlDarkModeContext)    
-
+//esto es un comentario de prueba
     return(
         <div className='w-full h-16 bg-primary opacity-80 rounded-t-lg fixed left-0 bottom-0 shadow-md flex space-x-8 items-center justify-center lg:hidden dark:bg-gray-800' id='tab-var'>
             <a href='#home'>

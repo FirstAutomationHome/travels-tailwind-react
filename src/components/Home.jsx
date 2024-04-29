@@ -11,7 +11,7 @@ function Home () {
                             Explore More
                         </button>
                     </div>
-                    <div className='w-full h-full lg:h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center'>
+                    <div className='w-full h-full lg:bg-sanFranciscoDesktop lg:bg-cover lg:bg-center'>
                         <img className='md:h-[40rem] md:w-full lg:hidden' src='./img/sanFrancisco.jpg' alt='San Francisco'/>
                     </div>
                     
